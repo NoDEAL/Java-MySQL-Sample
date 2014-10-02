@@ -6,6 +6,17 @@ public class MySQL {
     private ResultSet mResultSet;
     private Connection mConnection;
 
+    /** 
+	  * MySQL Class<br>
+	  * 
+	  * @param String url</br>
+	  * @param String port</br>
+	  * @param String databaseName</br>
+	  * @param String id</br>
+	  * @param String password</br>
+	  *
+	  */
+	
     public MySQL(final String url, final String port, final String databaseName, final String id, final String password) throws SQLException, ClassNotFoundException {
 
         try {
